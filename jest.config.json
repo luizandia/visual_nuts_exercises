@@ -1,0 +1,9 @@
+{
+  "bail": 1,
+  "verbose": true,
+  "collectCoverageFrom": [
+    "**/*.{js}",
+    "!**/node_modules/**",
+    "!/exercise_2/data.json"
+  ]
+}
