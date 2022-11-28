@@ -1,9 +1,17 @@
 {
-  "bail": 1,
   "verbose": true,
+  "collectCoverage": true,
   "collectCoverageFrom": [
-    "**/*.{js}",
+    "./src/**",
     "!**/node_modules/**",
-    "!/exercise_2/data.json"
-  ]
+    "!./src/exercise_1/index.js",
+    "!./src/exercise_2/index.js",
+    "!./src/exercise_2/file_utils.js",
+    "!./src/exercise_2/data.json"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "lines": 90
+    }
+  }
 }
