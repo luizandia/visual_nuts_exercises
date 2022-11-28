@@ -1,4 +1,4 @@
-import { buildCountryList } from '../../utis/countryListFactory'
+import { buildCountryList } from '../../ultis/countryListFactory'
 import {
     countCountries,
     getCountriesWithMostOfficialLanguages,
